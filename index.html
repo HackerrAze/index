@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>--version</title>
+	<style type="text/css">
+		.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  font-size: clamp(2rem, 2.8vw, 5rem);
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+.typewriter {
+	color: red;
+	width: 21.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+
+
+
+
+	html, body{
+  height: 700%;
+  font-weight: 100;
+}
+
+body{
+  background: black;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font-size: 9.5em;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 0.8s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -0.1s;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -0.2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -0.3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -0.4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -0.5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+	</style>
+</head>
+<body >
+
+	<svg viewBox="0 0 960 300">
+	<symbol id="s-text">
+		<!--<text text-anchor="middle" x="50%" y="80%">SCRIPT VERSION</text>-->
+
+		<text text-anchor="middle" x="50%" y="80%">VERSION</text>
+    
+	</symbol>
+
+	<g class = "g-ants">
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+	</g>
+</svg>
+
+
+
+
+	<!--<h1 style="text-align: center; color: red;">SCRİPT VERSİON</h1>-->
+	<div class="version-div" style="color: red;">
+	<b>- -version: </b><b class="version">1.1.1</b>
+	</div>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700">
+
+	<div class="container">
+  	<div class="typewriter">CODED BY ANONYMOUS</div>
+</div>
+</body>
+</html>
